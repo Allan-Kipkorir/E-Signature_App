@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4caf50;
+}
+.signature {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+.date {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
